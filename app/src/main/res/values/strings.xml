@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">conListView</string>
+
+    <string-array name="namaWayang">
+        <item>Bima</item>
+        <item>Arjuna</item>
+        <item>Nakula</item>
+        <item>Sadewa</item>
+        <item>Gatotkaca</item>
+        <item>Semar</item>
+        <item>Gareng</item>
+        <item>Petruk</item>
+        <item>Baladewa</item>
+        <item>Duryodhana</item>
+    </string-array>
+
+    <string-array name="deskripsiWayang">
+        <item>Anak kedua Pandawa yang paling kuat dan gagah berani.</item>
+        <item>Anak ketiga Pandawa yang rupawan dan ahli memanah.</item>
+        <item>Anak keempat Pandawa yang pandai merawat hewan dan mahir dalam ilmu pertarungan.</item>
+        <item>Anak kelima Pandawa yang mahir dalam ilmu pengetahuan dan mampu berkomunikasi dengan binatang.</item>
+        <item>Anak Bima yang sakti dan memiliki kekuatan luar biasa.</item>
+        <item>Guru dan penasihat Pandawa yang bijaksana dan sakti.</item>
+        <item>Adik Semar yang lucu dan suka bercanda.</item>
+        <item>Adik Semar yang cerdik dan suka menolong.</item>
+        <item>Raja Mandura yang kuat dan memiliki senjata Nenggala.</item>
+        <item>Raja Hastinapura yang ambisius dan licik.</item>
+    </string-array>
+</resources>
