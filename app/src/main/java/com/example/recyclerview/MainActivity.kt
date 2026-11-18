@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.recyclerview.databinding.ActivityMainBinding
@@ -62,6 +63,11 @@ class MainActivity : AppCompatActivity() {
             )
         } else {
             binding.rvWayang.layoutManager = LinearLayoutManager(this)
+        }
+
+        // Langkah 67: Menambahkan animasi saat item dihapus
+        binding.rvWayang.itemAnimator = DefaultItemAnimator().apply {
+            removeDuration = 400L
         }
 
         val adapterWayang = AdapterRecView(_arWayang)
